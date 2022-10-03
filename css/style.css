@@ -890,7 +890,7 @@ img {
 display: block;
 
 text-align: center;
-margin-top: 38px;
+padding-top: 38px;
 
 font-weight: 700;
 font-size: 20px;
@@ -902,7 +902,7 @@ color: #212121;
 .modal-form {
     display: block;
    
-    padding-top: 14px;
+    margin-top: 14px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -929,7 +929,7 @@ color: #212121;
 }
 .modal-element input {
    
-    border: none;
+    /* border: none; */
     height: 40px;
     width: 100%;
     padding-left: 42px;
@@ -990,12 +990,17 @@ color: #212121;
     margin-bottom: 30px;
 
 }
+.label-policy {
+    display: flex;
+    align-items: center;
+}
+
 .checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
-    
+
     width: 16px;
     height: 15px;
 
@@ -1013,6 +1018,7 @@ color: #212121;
 }
 
 .policy {
+    margin-left: 5px;
     text-decoration-line: underline;
     color: var(--accent-text-color);
 }
